@@ -15,7 +15,7 @@
         if (data.albums.items.length > 0) {
           $.each(data.albums.items, function(i, album) {
               printHTML += '<li><div class="album-wrap">';
-              printHTML += '<a href="album.html?id='+ album.id +'" target="_blank">';
+              printHTML += '<a href="album.html?id='+ album.id +'">';
               printHTML += '<img class="album-art" src='+album.images[0].url+'></a></div>';
               printHTML += '<span class="album-title">'+album.name+'</span>';
               printHTML += '<span class="album-artist">';

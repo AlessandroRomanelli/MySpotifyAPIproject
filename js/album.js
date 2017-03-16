@@ -20,7 +20,7 @@
           albumUndertitle = albumArtist + " (" + releaseDate + ")",
           imgURL = albumData.images[0].url,
           albumURL = albumData.external_urls.spotify;
-          titleHTML = "<h1>"+albumTitle+" ("+releaseDate+")</h1><span>"+albumArtist+"</span>",
+          titleHTML = "<h1><a href="+albumURL+" target='_blank'>"+albumTitle+" ("+releaseDate+")</h1></a><span>"+albumArtist+"</span>",
           tracksHTML = "<ol><h2>Tracklist:</h2>";
       $.each(albumData.tracks.items, function(i, song) {
         tracksHTML += "<li>"+song.name+"</li>";

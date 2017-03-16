@@ -121,7 +121,6 @@ button {
 }
 
 .album-list a {
-  display: block;
   margin: auto;
 }
 
@@ -187,7 +186,7 @@ button {
 
 .main-info span {
   font-weight: bold;
-  color: #bbb;
+  color: #ddd;
   font-size: 1.2em;
 }
 
@@ -202,6 +201,14 @@ button {
 
 .album-header a:hover {
   color: #f6f7f7
+}
+
+#main-title a {
+  color: #f6f7f7;
+}
+
+#main-title a:hover {
+  color: #2ebd59;
 }
 
 .album-image {
